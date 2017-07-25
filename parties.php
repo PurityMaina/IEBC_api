@@ -3,7 +3,7 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </header>
 <?php
-$json_string = file_get_contents("http://api.iebc.or.ke/party/?token=afd3877583a07e5b77e447332bb98a80");
+$json_string = file_get_contents("http://api.iebc.or.ke/party/?token=a***0");
 $data = json_decode($json_string, true);
 $array = $data['parties'];
 ?>
