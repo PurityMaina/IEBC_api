@@ -1,10 +1,10 @@
 
 <html>
 <header>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-**+*/*" crossorigin="anonymous">
 </header>
 <?php
-$json_string = file_get_contents("http://api.iebc.or.ke/candidate/?contest=&token=afd3877583a07e5b77e447332bb98a80");
+$json_string = file_get_contents("http://api.iebc.or.ke/candidate/?contest=&token=**");
 $data = json_decode($json_string, true);
 $array = $data['candidates'];
 ?>
@@ -32,7 +32,7 @@ $array = $data['candidates'];
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </header>
 <?php
-$json_string = file_get_contents("http://api.iebc.or.ke/pollingstation/?token=8535a3fabceedc9fdc62d9dceb73c568&key=20bf97831e63df28f68d7a4f7f10efeac1914c085c06244e7e391c1169a1792a");
+$json_string = file_get_contents("http://api.iebc.or.ke/pollingstation/?token=**&key=**");
 $data = json_decode($json_string, true);
 $array = $data['polling_stations'];
 ?>
